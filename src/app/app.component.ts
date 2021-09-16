@@ -11,6 +11,7 @@ export class AppComponent {
 
   public gen_uuid(uuidMax: any): void {
     var errorsFound = 0;
+    var total = 0;
 
     for (var i = 0; i < parseInt(uuidMax); i++) {
       const guid = uuidv4();
@@ -24,11 +25,12 @@ export class AppComponent {
       }
 
       console.log('i = ', i, '; errorsFound = ', errorsFound);
+      total++;
     }
 
     console.log(
       'items = ',
-      i,
+      total,
       '; errorsFound = ',
       errorsFound,
       errorsFound === 0 ? ' ALL v4 UUIDs' : ''
