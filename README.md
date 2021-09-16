@@ -1,4 +1,3 @@
-```
 |Field                     |Data Type               |	Octet |	Note                                                                  |
 |--------------------------|------------------------|-------|-----------------------------------------------------------------------|
 |time_low                  |unsigned 32 bit integer	|0-3	  |The low field of the timestamp.                                        |
@@ -7,7 +6,7 @@
 |clock_seq_hi_and_reserved |unsigned 8 bit integer	|8	    |The high field of theclock sequence multiplexed with the variant.      |
 |clock_seq_low	           |unsigned 8 bit integer	|9	    |The low field of the clock sequence.                                   |
 |node                      |unsigned 48 bit integer |10-15	|The spatially unique node identifier.                                  |
-
+```
                              +- UUID version
                              |
                             |-| 
