@@ -1,4 +1,4 @@
-Field Data Type	Octet #	Note
+Field Data Type	Octet Number	Note
 time_low  unsigned 32 bit integer	0-3	The low field of the timestamp.
 time_mid	unsigned 16 bit integer	4-5	The middle field of the timestamp.
 time_hi_and_version	unsigned 16 bit integer	6-7	The high field of the timestamp multiplexed with the version number.
