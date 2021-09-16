@@ -1,3 +1,7 @@
+Microsoft is one of the original contributors to the UUIDs (Universally Unique IDentifier), also known as GUIDs (Globally Unique IDentifier), specification, RFC-4212 https://datatracker.ietf.org/doc/html/rfc4122
+
+Angular UUID v4 (and more) package: https://github.com/uuidjs/uuid
+
 |Field                     |Data Type               |	Octet |	Note                                                                  |
 |--------------------------|------------------------|-------|-----------------------------------------------------------------------|
 |time_low                  |unsigned 32 bit integer	|0-3	  |The low field of the timestamp.                                        |
