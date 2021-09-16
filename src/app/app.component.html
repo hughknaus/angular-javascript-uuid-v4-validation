@@ -1,0 +1,21 @@
+<hello name="{{ name }}"></hello>
+<div>
+  <div style="color: red;">Open the console!</div>
+  <div>How many UUIDs to generate?</div>
+  <div>
+    <input
+      id="uuidMax"
+      name="uuidMax"
+      type="number"
+      value="100"
+      pattern="[0-9]*"
+      maxlength="3"
+      #uuidMax
+    />
+  </div>
+  <div>
+    <button id="btn1" (click)="gen_uuid(uuidMax.value)">
+      View inalid v4 UUIDs
+    </button>
+  </div>
+</div>
